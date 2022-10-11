@@ -1,0 +1,35 @@
+{
+  "name": "Storyteller2.0",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/CristiTone/Storyteller2.0.git",
+  "author": "Cristi Tone",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "cd client && yarn start",
+    "dev": "concurrently \"yarn run server\" \"yarn run client\""
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "clsx": "^1.1.0",
+    "config": "^3.2.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.3.1",
+    "gravatar": "^1.8.0",
+    "history": "^4.10.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.10",
+    "react-async": "^10.0.1",
+    "react-document-title": "^2.0.3",
+    "react-player": "^1.15.3",
+    "redux-devtools-extension": "^2.13.8",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2"
+  }
+}

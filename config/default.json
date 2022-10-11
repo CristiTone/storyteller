@@ -1,0 +1,5 @@
+{
+  "mongoURI": "mongodb+srv://admin:cristi96@cluster0-her5m.mongodb.net/storyteller?retryWrites=true&w=majority",
+  "firebaseURI": "https://storyteller2-90000.firebaseio.com/.json",
+  "jwtSecret": "secretToken420BlazeIt"
+}
